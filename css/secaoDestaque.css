@@ -2,9 +2,9 @@
 .secaoDestaque {
   text-align: center;
   background-size: cover;
-  background-color: #00161c;
-  padding: 10em 2em 3em 2em;
-  color: #fff;
+  background-color: #F8F5FF;;
+  padding: 15em 2em 3em 2em;
+  color: #3e1d8c;
 }
 
 
@@ -12,7 +12,7 @@
   font-weight: bold;
   margin-bottom: 1em;
   font-family: 'Montserrat', serif;
-  font-size: 2em;
+  font-size: 30px;
   line-height: 1;
 }
 
@@ -21,7 +21,7 @@
   margin: 0 auto 2em auto;
   font-size: 1.25em;
   font-weight: normal;
-
+  font-family: 'Montserrat', serif;
 }
 
 .secaoDestaque-cta {
@@ -46,12 +46,8 @@
 
 @media (min-width: 830px) {
 
-  .secaoDestaque {
-    background-image: url(../img/bg-intro.jpg);
-  }
-
   .secaoDestaque-titulo {
-    font-size: 5vw
+    font-size: 30px;
   }
 
 }
