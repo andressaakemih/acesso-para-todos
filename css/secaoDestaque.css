@@ -1,6 +1,21 @@
 q{
   font-family: 'Montserrat';
 }
+
+.listaLinks li {
+  list-style-type: none;
+}
+
+.listaLinks li a{
+  color: #3e1d8c;
+}
+
+.textoDestaque {
+  color: #3e1d8c;
+  font-family: 'Montserrat';
+  font-size: 16px;
+}
+
 .secaoDestaque {
   text-align: center;
   background-size: cover;
