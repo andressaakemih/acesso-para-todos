@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8">
     <title>Acessibilidade na web</title>
+    
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Open+Sans:300,400,700" rel="stylesheet">
-
     <link rel="shortcut icon" href="img/favicon/favicon.ico">
     <link rel="shortcut icon" href="img/favicon/favicon-16x16.png">
     <link rel="shortcut icon" href="img/favicon/favicon-32x32.png">
@@ -43,7 +43,7 @@
       </nav>
     </header>
 
-    <main class="conteudo" role="main">
+    <main class="conteudo">
       <section class="secaoDestaque">
         <h1 class="secaoDestaque-titulo" id="conteudoPrincipal">
           Acessibilidade na web
@@ -67,7 +67,7 @@
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
           </p>
         </div>
-      </section> <!--fim .secaoSobre-->
+      </section>
 
       <section class="secaoDestaques">
         <div class="container">
@@ -80,17 +80,16 @@
             Pessoas com deficiência são aquelas que têm impedimentos de longo prazo de natureza física, mental, intelectual ou sensorial, os quais, em interação com diversas barreiras, podem obstruir sua participação plena e efetiva na sociedade em igualdades de condições com as demais pessoas.
           </blockquote>
         </div>
-      </section> <!--fim .secaoDestaques-->
+      </section>
 
       <section class="secaoSobre clearfix">
         <div class="container">
-          <h2 class="secaoSobre-titulo tituloPadrao" id="links">
+          <h2 class="secaoSobre-titulo tituloPadrao">
             Sobre deficiência visual
           </h2>
           <p class="secaoSobre-texto">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
           </p>
-          <img src="img/acessilidade.jpeg" class="secaoSobre-imgDestaque" alt>
           <p class="secaoSobre-texto">
             Diam volutpat commodo sed egestas egestas fringilla phasellus. Pharetra et ultrices neque ornare aenean. Non quam lacus suspendisse faucibus interdum posuere. Vel eros donec ac odio. Metus aliquam eleifend mi in nulla posuere. Ac auctor augue mauris augue. Fermentum dui faucibus in ornare quam viverra orci sagittis eu. Massa enim nec dui nunc. Amet facilisis magna etiam tempor orci eu lobortis elementum nibh. Accumsan in nisl nisi scelerisque eu ultrices. Quam id leo in vitae turpis massa sed elementum tempus. Pretium lectus quam id leo.
           </p>
@@ -105,6 +104,23 @@
           <h2 class="secaoSobre-titulo tituloPadrao" id="links">
             Links úteis
           </h2>
+          <h3 class="subtituloSobre">
+            Contéudo
+          </h3>
+          <ol class="listaLinks">
+            <li>
+              <a href="https://mwpt.com.br" target="_blank" title="Site Movimento web para todos">Movimento web para todos</a>
+            </li>
+            <li>
+              <a href="https://mwpt.com.br" target="_blank">Movimento web para todos</a>
+            </li>
+            <li>
+              <a href="https://mwpt.com.br" target="_blank">Movimento web para todos</a>
+            </li>
+          </ol>
+          <h3 class="subtituloSobre">
+            Avaliadores de acessilidade
+          </h3>
           <ol class="listaLinks">
             <li>
               <a href="https://mwpt.com.br" target="_blank">Movimento web para todos</a>
@@ -122,14 +138,16 @@
 
     <footer class="rodape">
       <div class="container">
-        <img src="img/AcessoParaTodos.png" class="rodape-logo" alt="Logotipo" width="200">
+        <a href="#" title="Página principal site">
+          <img src="img/AcessoParaTodos.png" class="rodape-logo" alt="Logotipo" width="200">
+        </a>
         <nav class="rodape-nav">
           <ul>
-            <li class="rodape-nav-item"><a href="#" class="rodape-nav-link">Acessibilidade </a></li>
+            <li class="rodape-nav-item"><a href="#sobreAcessibilidade" class="rodape-nav-link">Acessibilidade </a></li>
             <li class="rodape-nav-item"><a href="#" class="rodape-nav-link">Leis e Decretos</a></li>
             <li class="rodape-nav-item"><a href="#" class="rodape-nav-link">Deficiência visual</a></li>
             <li class="rodape-nav-item"><a href="#" class="rodape-nav-link">Aplicabilidade</a></li>
-            <li class="rodape-nav-item"><a href="#" class="rodape-nav-link">Links úteis</a></li>
+            <li class="rodape-nav-item"><a href="#listaLinks" class="rodape-nav-link">Links úteis</a></li>
           </ul>  
         </nav>
       </div>

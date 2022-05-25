@@ -10,6 +10,10 @@ q{
   color: #3e1d8c;
 }
 
+.subtituloSobre {
+  margin: 10px 0;
+}
+
 .textoDestaque {
   color: #3e1d8c;
   font-family: 'Montserrat';
