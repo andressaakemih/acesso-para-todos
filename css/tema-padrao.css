@@ -43,7 +43,6 @@ li[aria-hidden='false'] { display:block ; }
   clear: both;
 }
 
-
 .apenasLeitorDeTela {
   position: absolute;
   z-index: -1;

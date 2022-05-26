@@ -8,13 +8,18 @@ q{
 
 .listaLinks li {
   list-style-type: none;
+  font-family: 'Montserrat';
 }
 
 .listaLinks li a{
   color: #3e1d8c;
 }
 
-.subtituloLinks, .linksUteisLista{
+.subtituloLinks {
+  margin: 10px 0;
+}
+
+.linksUteisLista {
   margin: 20px 0;
 }
 
