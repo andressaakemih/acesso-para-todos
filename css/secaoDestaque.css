@@ -2,6 +2,10 @@ q{
   font-family: 'Montserrat';
 }
 
+.tituloLinksUteis{
+  text-align: center;
+}
+
 .listaLinks li {
   list-style-type: none;
 }
@@ -10,8 +14,8 @@ q{
   color: #3e1d8c;
 }
 
-.subtituloSobre {
-  margin: 10px 0;
+.subtituloLinks, .linksUteisLista{
+  margin: 20px 0;
 }
 
 .textoDestaque {
