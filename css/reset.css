@@ -4,6 +4,9 @@
   padding: 0;
   font-family: 'Open Sans', 'Segoe UI', sans-serif;
 }
+figcaption {
+  margin-bottom: 1em;
+}
 
 pre {
   background-color: #4F4C4C30;
