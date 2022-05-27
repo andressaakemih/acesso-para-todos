@@ -2,6 +2,16 @@ q{
   font-family: 'Montserrat';
 }
 
+.tituloSessaoAplic {
+  margin: 1em 0 1em 0;
+  font-size: 1em;
+  color: #4F4C4C;
+}
+.sessaoBarreiras li{
+  margin-left: 0!important;
+  list-style-type: none;
+}
+
 .sessaoDadosLeis {
   margin-bottom: 1em;
 }

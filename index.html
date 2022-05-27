@@ -127,16 +127,44 @@
       <section class="secaoDestaques">
         <div class="container">
           <h2 class="secaoDestaques-titulo tituloPadrao" id="aplicabilidade">Aplicabilidade</h2>
-          <p class="secaoSobre-texto">
-            Aqui talvez o fator de empatia seja o mais importante para considerar o acesso de todas as pessoas. A partir do momento em que sabemos que uma pessoa cega utiliza um leitor de telas para ler ou que uma pessoa com baixa visão utiliza recursos de aumentar e diminuir fontes, precisamos considerar os seguintes aspectos no desenvolvimento de uma aplicação:
-          </p>
-          <ul>
-            <li>Instalar leitores de tela e fazer testes;</li>
-            <li>Garantir que o aumento de fontes não impossibilite a leitura ou navegação;</li>
-            <li>Verificar o contraste entre o texto e o fundo da página;</li>
-            <li>Garantir que não existem barreiras para a navegação por teclado;</li>
-            <li>Evitar bloquear a customização pelo usuário (por exemplo, evitar o bloqueio de zoom em dispositivos móveis).</li>
-          </ul>
+          <div class="sessaoDadosLeis">
+            <p class="secaoSobre-texto">
+              Aqui talvez o fator de empatia seja o mais importante para considerar o acesso de todas as pessoas. A partir do momento em que sabemos que uma pessoa cega utiliza um leitor de telas para ler ou que uma pessoa com baixa visão utiliza recursos de aumentar e diminuir fontes, precisamos considerar os seguintes aspectos no desenvolvimento de uma aplicação:
+            </p>
+            <ul>
+              <li>Instalar leitores de tela e fazer testes;</li>
+              <li>Garantir que o aumento de fontes não impossibilite a leitura ou navegação;</li>
+              <li>Verificar o contraste entre o texto e o fundo da página;</li>
+              <li>Garantir que não existem barreiras para a navegação por teclado;</li>
+              <li>Evitar bloquear a customização pelo usuário (por exemplo, evitar o bloqueio de zoom em dispositivos móveis).</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="secaoSobre">Eliminando barreiras de acesso</h3>
+            <p class="secaoSobre-texto">Dificilmente um site ou aplicação será 100% acessível, dadas as peculiaridades de deficiências específicas, mas a eliminação de barreiras é tangível e mensurável, como veremos ao final desta publicação.</p>
+            <ul class="sessaoBarreiras">
+              <li>
+                <h4 class="secaoSobre">Estrutura</h4>
+                <p>Consiste na parte de organização semântica e hierárquica do conteúdo de uma página. Essa estrutura precisa ser robusta para que o conteúdo tenha significado e a aplicação não seja um monte de código jogado dentro de uma página HTML.</p>
+                <p>Uma estrutura bem definida permite que tecnologia assistiva (e outras aplicações) consiga identificar as principais áreas da aplicação e transmitir essa informação para o usuário, seja ela uma informação estática ou dinâmica.</p>
+                <h5 class="tituloSessaoAplic">Título da página</h5>
+                <pre>
+                  <code>
+                    &lt;!DOCTYPE html&gt; 
+                    &lt;html lang=&quot;pt-br&quot;&gt; 
+                        &lt;head&gt; 
+                            &lt;meta charset=&quot;utf-8&quot;/&gt; 
+                            &lt;title&gt;Acessbilidade web&lt;/title&gt; 
+                        &lt;/head&gt; 
+                        &lt;body&gt;
+                            &lt;h1&gt;Ol&aacute; mundo!&lt;/h1&gt;
+                            &lt;p&gt;Exemplo de par&aacute;grafo&lt;/p&gt; 
+                        &lt;/body&gt; 
+                    &lt;/html&gt;</code>
+                </pre>                
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
       <!-- Sessão - Links úteis -->
