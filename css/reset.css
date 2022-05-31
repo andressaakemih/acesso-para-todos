@@ -8,8 +8,12 @@ figcaption {
   margin-bottom: 1em;
 }
 
+code {
+  font-size: 14px;
+}
+
 pre {
-  background-color: #4F4C4C30;
+  background-color: #fff;
   border-radius: 1em;
   color: rgb(0, 0, 0);
   margin: 1em 0 1em 0;
