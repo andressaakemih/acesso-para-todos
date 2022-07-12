@@ -11,6 +11,7 @@ figcaption {
 code {
   font-size: 16px;
   font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 pre {
@@ -25,7 +26,11 @@ li {
   margin-left: 1em;
 }
 
-a {
+a{
   color: #3e1d8c;
   font-weight: bold;
+}
+
+a:hover, a:focus{
+  border: 1px solid #3e1d8c;
 }
