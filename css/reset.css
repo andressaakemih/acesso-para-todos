@@ -32,5 +32,5 @@ a{
 }
 
 a:hover, a:focus{
-  border: 1px solid #3e1d8c;
+  text-decoration: underline overline #3e1d8c;
 }

@@ -45,7 +45,7 @@
 
 .cabecalho-nav-item a:hover,
 .cabecalho-nav-item a:focus {
-  text-decoration: underline;
+  text-decoration: underline overline #3e1d8c;
 }
 
 @media (min-width: 830px) {

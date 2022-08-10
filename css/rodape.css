@@ -34,9 +34,9 @@
   font-weight: bold;
 }
 
-.rodape-nav-link:hover,
-.rodape-nav-link:focus {
-  text-decoration: underline;
+.cabecalho-nav-item a:hover,
+.cabecalho-nav-item a:focus {
+  text-decoration: underline overline #3e1d8c;
 }
 
 @media (min-width: 830px) {
