@@ -84,6 +84,12 @@ li[aria-hidden='false'] { display:block ; }
   font-size: 1em;
 }
 
+@media (max-width: 428px) {
+  code {
+    font-size: 12px !important;
+  }
+}
+
 @media (min-width: 830px) {
   .container {
     width: 1200px;
@@ -99,3 +105,4 @@ li[aria-hidden='false'] { display:block ; }
     width: 1000px;
   }
 }
+
