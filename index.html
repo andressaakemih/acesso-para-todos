@@ -147,22 +147,20 @@
             </ul>
           </div>
           <div>
-            <h3 class="secaoSobre">Eliminando barreiras de acesso</h3>
+            <h3 class="secaoSobre">Eliminando barreiras de estrutura</h3>
             <p class="secaoSobre-texto">Dificilmente um site ou aplicação será 100% acessível, dadas as peculiaridades de deficiências específicas, mas a eliminação de barreiras é tangível e mensurável.</p>
             <ul class="sessaoBarreiras">
               <li>
-                <h4 class="secaoSobre">Estrutura</h4>
-                <p>Consiste na parte de organização semântica e hierárquica do conteúdo de uma página. Essa estrutura precisa ser robusta para que o conteúdo tenha significado e a aplicação não seja um monte de código jogado dentro de uma página HTML.</p>
-                <p>Uma estrutura bem definida permite que tecnologia assistiva (e outras aplicações) consiga identificar as principais áreas da aplicação e transmitir essa informação para o usuário, seja ela uma informação estática ou dinâmica.</p>
-                <h5 class="tituloSessaoAplic">Título da página</h5>
+                <h4 class="secaoSobre">Elemento &lt;title&gt;</h4>
+                <p>O elemento &lt;title&gt; aparece somente uma vez na página e é usado dentro do bloco &lt;head&gt;, deve descrever o propósito da página de maneira clara para que usuários que utilizam leitor de tela possam compreender a página que acessou:</p>
                 <pre>
                   <code>
-    &lt;title&gt;Blog da Andressa&lt;/title&gt;</code>
+  &lt;title&gt;Apt - Acesso para Todos&lt;/title&gt;</code>
                 </pre>
-                <p>Porém, esse recurso requer cuidado. Utilizar o mesmo título para todas as páginas é ruim, pois não transmite a informação de qual a página em que o usuário acabou de entrar. Também não é uma boa prática colocar a área do site depois do nome.</p> 
+                <p>Nas páginas internas do site não deve ser utilizado o mesmo título para todas elas, pois não atenderia o propósito de apresentar uma prévia sobre o que é cada página acessada:</p> 
                 <pre>
                   <code>
-     &lt;title&gt;Sobre | Blog da Andressa&lt;/title&gt;</code>
+  &lt;title&gt;Leis | Apt - Acesso para Todos&lt;/title&gt;</code>
                 </pre>                
               </li>
             </ul>
