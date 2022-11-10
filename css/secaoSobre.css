@@ -3,6 +3,10 @@
   font-family: 'Montserrat';
 }
 
+.secaoSobreAcessibilidade {
+  margin: 10px 0;
+}
+
 .secaoSobre-texto {
   margin-bottom: 1em;
 }
