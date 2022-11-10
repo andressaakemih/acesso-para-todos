@@ -14,8 +14,13 @@
 }
 
 .secaoSobre-imgDestaque {
+  max-width: 100%;
+  margin: 1em 0 1em 0;
+}
+
+.img-sobre {
   display: none;
-  max-width: 500px;
+  max-width: 50%;
 }
 
 
@@ -34,6 +39,14 @@
     float: right;
     margin-left: 2em;
     margin-bottom: 2em;
+    max-width: 50%;
+  }
+
+  .img-sobre {
+    display: block;
+    float: right;
+    margin-left: 2em;
+    margin-bottom: 1em;
   }
 
   .secaoSobre-plataformas {
