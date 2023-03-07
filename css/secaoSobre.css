@@ -1,3 +1,7 @@
+p {
+  color: #4F4C4C;
+}
+
 .secaoSobre {
   color: #4F4C4C;
   font-family: 'Montserrat';
@@ -5,6 +9,11 @@
 
 .secaoSobreAcessibilidade {
   margin: 10px 0;
+}
+
+.secaoSobreAplicabilidade {
+  color:#4F4C4C;
+  margin: 0.5em 0;
 }
 
 .secaoSobreTextoDados {
@@ -39,6 +48,18 @@
 
   .secaoSobre {
     text-align: left;
+  }
+
+  .secaoAplicabilidade-titulo{
+    text-align: center;
+    color: #4F4C4C;
+    margin: 5px 0;
+  }
+
+  .secaoSobreAplicabilidade{
+    font-size: 18px;
+    text-align: center;
+    color: #4F4C4C;
   }
 
   .secaoSobre-titulo {

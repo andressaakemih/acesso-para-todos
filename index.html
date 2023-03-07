@@ -41,7 +41,7 @@
     <main class="conteudo">
       <section class="secaoDestaque">
         <h1 class="secaoDestaque-titulo" id="conteudoPrincipal">
-          Acessibilidade na web
+          Acessibilidade na Web
         </h1>
         <p class="secaoDestaque-texto">
           <q>Para a maioria das pessoas, a tecnologia torna a vida mais fácil. Para uma pessoa com necessidades especiais, a
@@ -55,11 +55,11 @@
         <div class="container">
           <img src="img/acessibilidade.png" class="img-sobre" alt="Foto de teclas com símbolos de acessibilidade em destaque na cor azul">
           <h2 class="secaoSobre-titulo tituloPadrao" id="sobreAcessibilidade">
-            Sobre acessibilidade na web 
+            Sobre Acessibilidade na Web 
           </h2>
           <p class="secaoSobre-texto">
             Existem diversas definições de acessibilidade web, sendo uma delas a possibilidade de garantir autonomia às pessoas com deficiência para navegar, acessar conteúdo, interagir e contribuir em uma web desenvolvida de forma acessível.          </p>
-          <h3 class="secaoSobreAcessibilidade">Quem é beneficiado por uma web acessível?</h3>
+          <h3 class="secaoSobreAcessibilidade">E quem é beneficiado por uma web acessível?</h3>
           <p class="secaoSobre-texto">Acessibilidade na web é crucial para todos, mas é especialmente vital para pessoas com deficiência, que enfrentam barreiras permanentes e significativas no acesso à informação e comunicação. Todos nós nos beneficiamos quando a web é acessível para todos, independentemente de suas habilidades e necessidades.
           </p>
         </div>
@@ -98,15 +98,14 @@
             <p class="secaoSobre-texto">De acordo com o Censo 2010 do IBGE, quase um quarto da população brasileira tem algum tipo de deficiência, sendo que 18,8% têm deficiência visual, 5,1% têm deficiência auditiva, 7,0% têm deficiência motora e 1,4% têm deficiência mental ou intelectual. Em relação à deficiência visual, 29.211.482 pessoas apresentam alguma dificuldade, 6.056.533 grande dificuldade e 506.377 não conseguem enxergar de modo algum.
           </div>  
           <div>
-            <h3 class="secaoSobre">Deficiência visual</h3>
+            <h3 class="secaoSobre">Deficiência Visual</h3>
             <p class="secaoSobre-texto">
               A deficiência visual é uma condição física irreversível que vai da baixa visão à cegueira e não pode ser corrigida com uso de lentes ou tratamentos.</p>
           </div>
           <div>
-            <h3 class="secaoSobre">Tecnologia assistiva</h3>
+            <h3 class="secaoSobre">Tecnologia Assistiva</h3>
             <p class="secaoSobre-texto">
-              Segundo a Lei Brasileira de Inclusão, Tecnologia Assistiva são “produtos, equipamentos, dispositivos, recursos, metodologias, estratégias, práticas e serviços que objetivem promover a funcionalidade, relacionada à atividade e à participação da pessoa com deficiência ou com mobilidade reduzida, visando à sua autonomia, independência, qualidade de vida e inclusão social.”
-              <a href="http://www.planalto.gov.br/ccivil_03/_Ato2015-2018/2015/Lei/L13146.htm" target="_blank">(LEI Nº 13.146, DE 6 DE JULHO DE 2015.)</a>
+              Para promover a funcionalidade, autonomia e inclusão social das pessoas com deficiência, a Lei Brasileira de Inclusão instituiu a Tecnologia Assistiva, que consiste em produtos, equipamentos, recursos, serviços e práticas que objetivam melhorar a qualidade de vida e a participação da pessoa com deficiência ou com mobilidade reduzida.
             </p>     
           </div>              
         </div>
@@ -116,45 +115,41 @@
           <h2 class="secaoDestaques-titulo tituloPadrao" id="aplicabilidade">Aplicabilidade</h2>
           <div class="sessaoDadosLeis">
             <p class="secaoSobre-texto">
+              Para tornar a web acessível para usuários com deficiência visual, é necessário considerar quatro aspectos principais: a <b>Estrutura semântica</b>, a <b>Navegação e interatividade</b>, o <b>Design</b> e <b>Multimídia e conteúdo não textual</b>.
             </p>
           </div>
           <div>
-            <h3 class="secaoSobre">Eliminando barreiras de estrutura</h3>
-            <p class="secaoSobre-texto">Uma abordagem importante para tornar um site ou aplicação acessível é a eliminação de barreiras estruturais. Embora seja difícil alcançar a acessibilidade de 100%, dado que cada deficiência apresenta peculiaridades específicas, a eliminação dessas barreiras é um objetivo tangível e mensurável.
+            <h3 class="secaoSobreAplicabilidade">Estrutura Semântica</h3>
+            <p class="secaoSobre-texto">
+              A Estrutura semântica refere-se à organização e estruturação dos conteúdos da página, utilizando tags HTML apropriadas para criar uma hierarquia clara e semântica. Isso permite que usuários com deficiência visual possam navegar e compreender o conteúdo da página com mais facilidade, utilizando tecnologias assistivas, como leitores de tela.
             </p>
-            <ul class="sessaoBarreiras">
-              <li>
-                <h4 class="secaoSobre">Elemento &lt;title&gt;</h4>
-                <p>Um elemento fundamental para garantir a acessibilidade é o &lt;title&gt; da página. Esse elemento, que aparece apenas uma vez na página, deve ser utilizado dentro do bloco &lt;head&gt; e descrever o propósito da página de maneira clara, para que usuários que utilizam leitores de tela possam compreender o conteúdo da página. Por exemplo</p>
-                <pre>
-                  <code>
- &lt;title&gt;Apt - Acesso para Todos&lt;/title&gt;</code>
-                </pre>
-                <p>Além disso, nas páginas internas do site, é importante evitar o uso do mesmo título para todas elas, pois isso não atenderia ao propósito de apresentar uma prévia sobre o conteúdo de cada página acessada. Em vez disso, é recomendável utilizar títulos específicos que descrevam o conteúdo de cada página, como por exemplo:</p> 
-                <pre>
-                  <code>
- &lt;title&gt;Leis | Apt - Acesso para Todos&lt;/title&gt;</code>
-                </pre>                
-              </li>
-            </ul>
-          </div>
-          <!-- Estrutura de Cabeçalho -->
-          <div>
-            <ul class="sessaoBarreiras">
-              <li>
-                <h4 class="secaoSobre">Estrutura de cabeçalho</h4>
-                <p>Os elementos HTML &lt;h1&gt; a &lt;h6&gt; representam os seis níveis de título de seções presentes em uma página. O &lt;h1&gt; é o mais importante e segue em ordem decrescente até o &lt;h6&gt;, que é o de menor importância (MDN, 2022). É importante destacar que esses níveis de cabeçalho não devem ser usados para definir o tamanho da fonte, mas sim por meio de propriedades CSS.</p>
-              </li>
-            </ul>
-            <img src="img/navegação-leitor.png" class="secaoAplicabilidade" alt="Exemplos de navegação por teclado utilizando leitor de tela">
-          </div>
+            <h3 class="secaoSobreAplicabilidade">Navegação e Interatividade</h3>
+            <p class="secaoSobre-texto">
+              A Navegação e interatividade devem ser projetadas de forma a garantir que todos os usuários, incluindo aqueles com deficiência visual, possam acessar e interagir com o conteúdo da página. Isso envolve o uso de teclas de acesso, menus de navegação claros e concisos, e feedbacks auditivos e táteis para auxiliar na navegação.
+            </p>
+            <h3 class="secaoSobreAplicabilidade">Design</h3>
+            <p class="secaoSobre-texto">
+              O Design acessível é fundamental para garantir que a página seja compreensível e utilizável por usuários com deficiência visual. Isso envolve a escolha de cores contrastantes, fontes legíveis e um layout claro e simples. O design deve ser pensado desde o início do projeto para evitar problemas de acessibilidade no futuro.<br>
+            </p>
+            <div>
+              <h3 class="secaoSobreAplicabilidade">Multimídia e Conteúdo não Textual</h3>
+              <p class="secaoSobre-texto">
+                Por fim, o Multimídia e conteúdo não textual devem ser tornados acessíveis por meio de técnicas como descrição de imagens, transcrição de áudio e vídeo, e legendas. Isso permite que usuários com deficiência visual possam compreender o conteúdo multimídia e não textual da página. <br>
+              </p>
+            </div>
+            <div>
+              <p class="secaoSobre-texto">
+                Ao considerar esses quatro aspectos, é possível tornar a web mais acessível para usuários com deficiência visual, garantindo que eles possam navegar, compreender e interagir com o conteúdo da página de forma independente e eficiente.
+              </p>
+            </div>
+          </div>            
         </div>
       </section>
       <!-- Sessão - Links úteis -->
       <section class="secaoSobre clearfix">
         <div class="container">
           <h2 class="tituloPadrao tituloLinksUteis" id="links">
-            Links úteis
+            Links Úteis
           </h2>          
           <div>
             <h3 class="secaoSobre">
@@ -254,11 +249,11 @@
             </ul>
           </div>
           <div>
-            <h3 class="secaoSobre">Avaliadores de acessilidade</h3>
+            <h3 class="secaoSobre">Validadores de Acessilidade</h3>
             <ul class="listaLinks">
               <li class="linksUteisLista">
                 <h4>
-                  <a href="https://validator.w3.org/" target="_blank" title="Validador de acessibilidade do W3C">
+                  <a href="https://validator.w3.org/" target="_blank" title="Validador Markup Validation">
                     W3C -  Markup Validation Service
                   </a>
                 </h4>
@@ -266,7 +261,7 @@
               </li>
               <li class="linksUteisLista">
                 <h4>
-                  <a href="https://accessmonitor.acessibilidade.gov.pt/" target="_blank" title="Validador de acessibilidade accessMonitor">
+                  <a href="https://accessmonitor.acessibilidade.gov.pt/" target="_blank" title="Validador accessMonitor">
                     accessMonitor
                   </a>
                 </h4>               
