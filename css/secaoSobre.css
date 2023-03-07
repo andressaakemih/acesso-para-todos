@@ -7,6 +7,9 @@
   margin: 10px 0;
 }
 
+.secaoSobreTextoDados {
+  margin-top: 10px;
+}
 .secaoSobre-texto {
   margin-bottom: 1em;
 }
@@ -20,6 +23,10 @@
 .secaoSobre-imgDestaque {
   max-width: 100%;
   margin: 1em 0 1em 0;
+}
+
+.secaoAplicabilidade {
+  display: none;
 }
 
 .img-sobre {
@@ -44,6 +51,12 @@
     margin-left: 2em;
     margin-bottom: 2em;
     max-width: 50%;
+  }
+  
+  .secaoAplicabilidade {
+    display: block;
+    max-width: 100%;
+    margin: 1em 0 1em 0;
   }
 
   .img-sobre {
