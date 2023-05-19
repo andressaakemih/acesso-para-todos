@@ -48,7 +48,7 @@
   text-decoration: underline overline #3e1d8c;
 }
 
-@media (min-width: 970px) {
+@media (min-width: 980px) {
 
   .cabecalho {
     border-bottom: 0;
